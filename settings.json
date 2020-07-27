@@ -1,5 +1,24 @@
 {
     "files.autoGuessEncoding": true,
-    "plantuml.server": "localhost:8080",
+    "plantuml.commandArgs": [
+        "-Xmx2g",
+        "-DPLANTUML_LIMIT_SIZE=16384"
+    ],
     "plantuml.render": "Local",
+    "extensions.ignoreRecommendations": false,
+
+    // vim
+    "vim.leader" : "\\"
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // Markdown Preview
+        {
+            "before" : [
+                "<leader>",
+                "p"
+            ],
+            "commands" : [
+                "markdown-preview-enhanced.openPreviewToTheSide"
+            ]
+        },
+    ],
 }
