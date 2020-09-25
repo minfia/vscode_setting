@@ -43,7 +43,7 @@
         { "before" : ["<leader>","f","c"], "commands" : ["extension.table.formatCurrent"] },
         { "before" : ["<leader>","f","a"], "commands" : ["extension.table.formatAll"] },
     ],
-    "vim.insertModeKeyBindings": [
+    "vim.insertModeKeyBindingsNonRecursive": [
         // cursor move
         { "before" : ["<C-h>"], "after" : ["<Left>"] },
         { "before" : ["<C-j>"], "after" : ["<Down>"] },
@@ -54,9 +54,12 @@
     
     "vim.handleKeys": {
         "<C-a>": false,
+        "<C-t>": false,
     },
 
     // other
     "vim.debug.silent": true,
-    "vim.whichwrap": "b,s,h,l,<,>,[,]"
+    "vim.whichwrap": "b,s,h,l,<,>,[,]",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "workbench.colorTheme": "Visual Studio 2019 Dark",
 }
