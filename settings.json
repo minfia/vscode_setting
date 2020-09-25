@@ -7,18 +7,56 @@
     "plantuml.render": "Local",
     "extensions.ignoreRecommendations": false,
 
+    "[c]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+    },
+
+    "[cpp]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+    },
+
+    "[makefile]": {
+        "editor.insertSpaces": false,
+    },
+
+    // editor
+    "editor.renderWhitespace": "all",
+    "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": "on",
+
     // vim
-    "vim.leader" : "\\"
+    "vim.useSystemClipboard": true,
+    "vim.visualstar": true,
+    // search settings
+    "vim.hlsearch": true,
+    "vim.ignorecase": true,
+    "vim.wrapscan": true,
+
+    // key mapping
+    "vim.leader" : "\\",
     "vim.normalModeKeyBindingsNonRecursive": [
         // Markdown Preview
-        {
-            "before" : [
-                "<leader>",
-                "p"
-            ],
-            "commands" : [
-                "markdown-preview-enhanced.openPreviewToTheSide"
-            ]
-        },
+        { "before" : ["<leader>","p"], "commands" : ["markdown-preview-enhanced.openPreviewToTheSide"] },
+        // Table Formatter
+        { "before" : ["<leader>","f","c"], "commands" : ["extension.table.formatCurrent"] },
+        { "before" : ["<leader>","f","a"], "commands" : ["extension.table.formatAll"] },
     ],
+    "vim.insertModeKeyBindings": [
+        // cursor move
+        { "before" : ["<C-h>"], "after" : ["<Left>"] },
+        { "before" : ["<C-j>"], "after" : ["<Down>"] },
+        { "before" : ["<C-k>"], "after" : ["<Up>"] },
+        { "before" : ["<C-l>"], "after" : ["<Right>"] },
+        { "before" : ["<C-c>"], "after" : ["<ESC>"] },
+    ],
+    
+    "vim.handleKeys": {
+        "<C-a>": false,
+    },
+
+    // other
+    "vim.debug.silent": true,
+    "vim.whichwrap": "b,s,h,l,<,>,[,]"
 }
