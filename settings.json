@@ -35,7 +35,7 @@
     "vim.wrapscan": true,
 
     // key mapping
-    "vim.leader" : "\\",
+    "vim.leader" : "<space>",
     "vim.normalModeKeyBindingsNonRecursive": [
         // Markdown Preview
         { "before" : ["<leader>","p"], "commands" : ["markdown-preview-enhanced.openPreviewToTheSide"] },
