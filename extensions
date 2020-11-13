@@ -5,8 +5,11 @@ jebbs.plantuml
 k--kato.docomment
 MS-CEINTL.vscode-language-pack-ja
 ms-dotnettools.csharp
+ms-vscode-remote.remote-wsl
+ms-vscode.cpptools
 shd101wyy.markdown-preview-enhanced
 shuworks.vscode-table-formatter
 streetsidesoftware.code-spell-checker
 vscodevim.vim
+webfreak.debug
 yzhang.markdown-all-in-one
