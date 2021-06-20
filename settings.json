@@ -62,4 +62,5 @@
     "vim.whichwrap": "b,s,h,l,<,>,[,]",
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "workbench.colorTheme": "Visual Studio 2019 Dark",
+    "editor.fontFamily": "Myrica M, Consolas, 'Courier New', monospace",
 }
