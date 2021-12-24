@@ -22,26 +22,41 @@
     },
 
     // editor
+    "editor.fontFamily": "Myrica M, Consolas, 'Courier New', monospace",
     "editor.renderWhitespace": "all",
     "editor.snippetSuggestions": "top",
     "editor.tabCompletion": "on",
+    "editor.lineNumbers": "relative",
 
     // vim
+    "vim.debug.silent": true,
     "vim.useSystemClipboard": true,
     "vim.visualstar": true,
-    // search settings
+    "vim.whichwrap": "b,s,h,l<.>,[,]",
+
+    // search
     "vim.hlsearch": true,
     "vim.ignorecase": true,
     "vim.wrapscan": true,
+    "vim.easymotion": true,
+    "vim.easymotionKeys": "asdfghjkl",
 
-    // key mapping
+    // keymap
     "vim.leader" : "<space>",
     "vim.normalModeKeyBindingsNonRecursive": [
         // Markdown Preview
         { "before" : ["<leader>","p"], "commands" : ["markdown-preview-enhanced.openPreviewToTheSide"] },
+        { "before" : ["<leader>","s"], "commands" : ["markdown-preview-enhanced.toggleScrollSync"] },
         // Table Formatter
         { "before" : ["<leader>","f","c"], "commands" : ["extension.table.formatCurrent"] },
         { "before" : ["<leader>","f","a"], "commands" : ["extension.table.formatAll"] },
+
+        // disabled
+        { "before" : ["x"], "after": ["\"", "_", "x"] },
+        { "before" : ["s"], "after": ["\"", "_", "s"] },
+
+        // Definition jump
+        { "before" : ["C-j"], "commands" : ["editor.action.revealDefinition"] },
     ],
     "vim.insertModeKeyBindingsNonRecursive": [
         // cursor move
@@ -53,14 +68,10 @@
     ],
     
     "vim.handleKeys": {
-        "<C-a>": false,
         "<C-t>": false,
     },
 
     // other
-    "vim.debug.silent": true,
-    "vim.whichwrap": "b,s,h,l,<,>,[,]",
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "workbench.colorTheme": "Visual Studio 2019 Dark",
-    "editor.fontFamily": "Myrica M, Consolas, 'Courier New', monospace",
 }
