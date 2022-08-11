@@ -1,22 +1,32 @@
 # VSCode Setting
 
-## à–¾
+## èª¬æ˜
 
-VSCode‚ğ‰õ“K‚Ég‚¦‚é‚æ‚¤‚É‚·‚éİ’è‚ğs‚¤ƒCƒ“ƒXƒg[ƒ‰[‚Ì’ñ‹Ÿ
+VSCodeã‚’å¿«é©ã«ä½¿ãˆã‚‹ã‚ˆã†ã«ã™ã‚‹è¨­å®šã‚’è¡Œã†ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã®æä¾›
 
-## ŠÂ‹«\’zè‡
-VSCode‚ÍA[user installer, Windows10 64bit](https://code.visualstudio.com/docs/?dv=win64user)‚ğ„§
+## ç’°å¢ƒæ§‹ç¯‰æ‰‹é †
+VSCodeã¯ã€[user installer, Windows10 64bit](https://code.visualstudio.com/docs/?dv=win64user)ã‚’æ¨å¥¨
 
 ## Extensions
 - donjayamanne.githistory
 - eamodio.gitlens
+- ICS.japanese-proofreading
 - jebbs.plantuml
+- k--kato.docomment
+- marp-team.marp-vscode
 - MS-CEINTL.vscode-language-pack-ja
+- ms-dotnettools.csharp
+- ms-vscode-remote.remote-wsl
+- ms-vscode.cpptools
 - shd101wyy.markdown-preview-enhanced
+- shuworks.vscode-table-formatter
+- streetsidesoftware.code-spell-checker
 - vscodevim.vim
+- webfreak.debug
 - yzhang.markdown-all-in-one
 
-## ƒCƒ“ƒXƒg[ƒ‹
+
+## ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 ```
-install.bat‚ğÀs‚·‚é
+install.batã‚’ç®¡ç†è€…æ¨©é™ã§å®Ÿè¡Œã™ã‚‹
 ```
