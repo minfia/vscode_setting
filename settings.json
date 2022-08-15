@@ -21,6 +21,12 @@
         "editor.insertSpaces": false,
     },
 
+    // markdown
+    "markdown.marp.enableHtml": true,
+    "markdown.marp.themes": [
+        "./marp-themes/base.css"
+    ],
+
     // editor
     "editor.fontFamily": "Myrica M, Consolas, 'Courier New', monospace",
     "editor.renderWhitespace": "all",
@@ -39,7 +45,6 @@
     "vim.ignorecase": true,
     "vim.wrapscan": true,
     "vim.easymotion": true,
-    "vim.easymotionKeys": "asdfghjkl",
 
     // keymap
     "vim.leader" : "<space>",
@@ -64,7 +69,6 @@
         { "before" : ["<C-j>"], "after" : ["<Down>"] },
         { "before" : ["<C-k>"], "after" : ["<Up>"] },
         { "before" : ["<C-l>"], "after" : ["<Right>"] },
-        { "before" : ["<C-c>"], "after" : ["<ESC>"] },
     ],
     
     "vim.handleKeys": {
