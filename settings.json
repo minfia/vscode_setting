@@ -59,9 +59,14 @@
         // disabled
         { "before" : ["x"], "after": ["\"", "_", "x"] },
         { "before" : ["s"], "after": ["\"", "_", "s"] },
+        { "before" : ["*"], "after": ["*", "N"] },
+        { "before" : ["#"], "after": ["#", "N"] },
 
         // Definition jump
         { "before" : ["C-j"], "commands" : ["editor.action.revealDefinition"] },
+
+        // Toggle mini map
+        { "before" : ["<leader>", "m"], "commands": ["editor.action.toggleMinimap"] },
     ],
     "vim.insertModeKeyBindingsNonRecursive": [
         // cursor move
@@ -82,4 +87,5 @@
     // other
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "workbench.colorTheme": "Visual Studio 2019 Dark",
+    "workbench.startupEditor": "none",
 }
