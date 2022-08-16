@@ -39,4 +39,20 @@
         "command": "selectPrevSuggestion",
         "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
     },
+    {
+        "key": "ctrl+p",
+        "command": "cursorUp",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "cursorDown",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "type",
+        "args": { "text": "\n"},
+        "when": "terminalFocus",
+    },
 ]
