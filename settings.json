@@ -29,7 +29,7 @@
 
     // editor
     "editor.fontSize": 12,
-    "editor.fontFamily": "Myrica M, Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "Consolas, Myrica M, 'Courier New', monospace",
     "editor.renderWhitespace": "all",
     "editor.snippetSuggestions": "top",
     "editor.tabCompletion": "on",
@@ -94,4 +94,5 @@
     "workbench.startupEditor": "none",
     "glassit.alpha": 225,
     "window.customMenuBarAltFocus": false,
+    "diffEditor.ignoreTrimWhitespace": false,
 }
