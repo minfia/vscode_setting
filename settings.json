@@ -33,6 +33,8 @@
     "editor.snippetSuggestions": "top",
     "editor.tabCompletion": "on",
     "editor.lineNumbers": "relative",
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.enabled": true,
 
     // vim
     "vim.debug.silent": true,
