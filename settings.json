@@ -28,11 +28,14 @@
     ],
 
     // editor
+    "editor.fontSize": 12,
     "editor.fontFamily": "Myrica M, Consolas, 'Courier New', monospace",
     "editor.renderWhitespace": "all",
     "editor.snippetSuggestions": "top",
     "editor.tabCompletion": "on",
     "editor.lineNumbers": "relative",
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.enabled": true,
 
     // vim
     "vim.debug.silent": true,
@@ -75,7 +78,8 @@
         { "before" : ["<C-k>"], "after" : ["<Up>"] },
         { "before" : ["<C-l>"], "after" : ["<Right>"] },
     ],
-    
+
+    // enable VSCode binding
     "vim.handleKeys": {
         "<C-t>": false,
     },
@@ -85,7 +89,9 @@
     "markdown-preview-enhanced.hideDefaultVSCodeMarkdownPreviewButtons": false,
 
     // other
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "workbench.colorTheme": "Visual Studio 2019 Dark",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.colorTheme": "Default Dark+",
     "workbench.startupEditor": "none",
+    "glassit.alpha": 225,
+    "window.customMenuBarAltFocus": false,
 }
