@@ -77,7 +77,8 @@
         { "before" : ["<C-k>"], "after" : ["<Up>"] },
         { "before" : ["<C-l>"], "after" : ["<Right>"] },
     ],
-    
+
+    // enable VSCode binding
     "vim.handleKeys": {
         "<C-t>": false,
     },
@@ -90,4 +91,5 @@
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "workbench.colorTheme": "Visual Studio 2019 Dark",
     "workbench.startupEditor": "none",
+    "glassit.alpha": 225,
 }
