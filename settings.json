@@ -38,6 +38,7 @@
     "editor.bracketPairColorization.enabled": true,
 
     // vim
+    "vim.useCtrlKeys": true,
     "vim.debug.silent": true,
     "vim.useSystemClipboard": true,
     "vim.visualstar": true,
@@ -95,4 +96,5 @@
     "glassit.alpha": 225,
     "window.customMenuBarAltFocus": false,
     "diffEditor.ignoreTrimWhitespace": false,
+    "markdown.extension.orderedList.marker": "one",
 }
